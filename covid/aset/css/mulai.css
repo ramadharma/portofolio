@@ -1,0 +1,81 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../img/back1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#mulai {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#mulai .title {
+    text-align: center;
+    color: darkslategrey;
+    padding-bottom: 2em;
+}
+
+.title h2 {
+    font-family: "Montserrat", sans-serif;
+    width: 800;
+    font-weight: 500;
+    padding-top: 1em; 
+}
+
+#mulai .btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #73f5ad;
+    border: 2px solid #73f5ad;
+}
+
+#mulai .isi {
+    float: left;
+}
+
+#mulai .btn2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: tomato;
+    border: 2px solid tomato;
+    background-color: none;
+}
+
+#mulai .btn:hover {
+    background-color: #73f5ad;
+    color: #fff;
+}
+
+#mulai .btn2:hover {
+    background-color: tomato;
+    color: #fff;
+}
+
+#mulai p {
+    padding-top: 15px;
+}
+
+#mulai img {
+    width: 200;
+    padding-top: 4em;
+}
+

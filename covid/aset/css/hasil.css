@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.hasil {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    text-align: center;    
+}
+
+#hasil h5 {
+    color: tomato;
+}
